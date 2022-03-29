@@ -1,0 +1,19 @@
+.odd-numbered {
+    background-color:#ffa3a3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.larger-font {
+    font-size: 24px;
+}
+
+#second {
+    font-size: 36px;
+    color: #1313cc;
+}
+
+#fourth {
+    background-color: #60ec83;
+    font-size: 24px;
+    font-weight: bold;
+}

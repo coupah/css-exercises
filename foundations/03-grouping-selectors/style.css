@@ -1,0 +1,17 @@
+.clickme-black, 
+.clickme-yellow {
+    font-family: helvetica, times new roman, sans-serif;
+    font-size: 28px;
+}
+
+.clickme-black {
+
+    background-color: black;
+    color: white;
+}
+
+.clickme-yellow {
+    background-color: yellow;
+    color: black;
+}
+
