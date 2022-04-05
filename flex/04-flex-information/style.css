@@ -5,11 +5,15 @@ body {
 img {
   width: 100px;
   height: 100px;
+  /*outline: 1px solid indigo;*/
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  /*outline: 1px solid red;*/
+
+
 }
 
 /* do not edit this footer */
@@ -23,4 +27,29 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* added */
+
+body {
+  /*outline: 1px solid green;*/
+
+  text-align: center;
+}
+
+.plantpics {
+  
+  /*outline: 1px solid orange;*/
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plantcolumn {
+ /* display: flex;
+  flex-direction: column;
+  align-items:  center;*/
+  width:200px;
+  /*outline: solid green;*/
 }

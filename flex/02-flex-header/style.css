@@ -1,6 +1,15 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content:space-between;
+  border: 10px solid white; 
+ /* outline: 1px solid red;*/
+
+ padding:8px;
+ align-items: center;
+  
+ 
 }
 
 .logo {
@@ -9,11 +18,31 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px;
+ /* outline: 1px solid red;*/
+ 
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  
+ /* outline: 1px solid blue; */
+
+margin: 0;
+padding: 0;
+gap: 8px;
+
+
+ 
+}
+
+li {
+
+  /* puts the space between individual list items */
+  /*margin: 5px;*/
+  
 }
 
 a {
@@ -22,4 +51,27 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  color: blue;
+  font-weight: bolder;
+}
+
+/*.left-links {
+  
+ /* outline: 1px solid purple;*/
+
+  /* move the left links to the left to take up the space reserved for the bullet point */
+  /*margin-left: -38px;*/
+  
+  /* vertically centre the links */
+  /* display: flex;*/
+
+  /*align-items: center;*/
+  
+/* }
+
+.right-links {
+
+  /* vertically centre the links */
+  display: flex;
+  align-items: center;
 }
