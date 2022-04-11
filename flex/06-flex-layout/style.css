@@ -5,6 +5,13 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  
+  /*added - note, it doesn't work if added at the end separately */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
 }
 
 img {
@@ -16,6 +23,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  
+  /*added*/
+  padding:7px;
 }
 
 input {
@@ -28,12 +38,52 @@ input {
 
 /* added */
 
+a {
+  text-decoration: none;
+  color: rgb(77, 75, 75);
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.content {
+ /* outline: 1px solid peru; */
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  
+}
+
 .header {
+ /* outline: 1px solid green; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;  
 }
 
 ul {
   display:flex;
   list-style-type: none;
+  padding:0;
 }
+
+
+.footer {
+/*  outline: 1px solid orange; */
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+
+.header, .footer {
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.left-links, .right-links {
+  gap:20px;
+}
+
+
