@@ -13,13 +13,6 @@ height: 100%;
   background: darkmagenta;
   color: white;
 
-  padding:16px;
-  font-size: 32px;
-  font-weight:900;
-  
-  display: flex;
-  align-items: center;
-
 }
 
 .footer {
@@ -29,34 +22,55 @@ height: 100%;
 }
 
 .sidebar {
-/*  outline: 2px solid orange; */
+  outline: 2px solid orange;
   background: royalblue;
   min-height: 60vh;
   
+  
+  
+  
+}
+
+.card {
+ /* outline: 1px solid orchid;*/
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  
+}
+/* added */
+
+.header {
+  padding:16px;
+  font-size: 32px;
+  font-weight:900;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar {
   padding:16px;
   margin:0px;
   border:0px;
   width: 300px;
   flex-shrink: 0;
   font-size: 24px;
-  
-  
+/*  padding-left: 16px;*/
 }
-
 
 .main {
   display: flex;
   height: 80vh;
-/*  outline:2px solid green; */
+  outline:2px solid green;
   padding:0px;
 }
-
 
 .cardbox {
   padding:32px;
   margin:1px;
  
-/*  outline: 1px solid red; */
+  outline: 1px solid red;
 
   display:flex;
 
@@ -67,13 +81,7 @@ height: 100%;
 
 }
 
-
 .card {
-
-/*  border: 1px solid #eee; */
-
-  border-radius: 4px;
-  
   font-size: 0.7em;
   font-weight:550;
   width: 220px;
@@ -82,13 +90,11 @@ height: 100%;
   display:flex;
   align-items: flex-start; 
   
-
+/*  padding: 7px 7px 60px;*/
   box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.1);
-
-
+/*  flex-shrink: 1;*/
 
 }
-
 
 ul {
   /* this removes the dots on the list items*/
@@ -96,7 +102,7 @@ ul {
   padding: 0px;
   border: 0px;
   margin:0px;
-/*  outline: 1px solid magenta; */
+  outline: 1px solid magenta;
 }
 
 a {
